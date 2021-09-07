@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: "Reenie Beanie", cursive;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 4rem;
+  color: cadetblue;
+  border-bottom: 3px solid salmon;
+  text-shadow: 10px 10px 4px #000;
+}
+.main_container {
+  width: 95%;
+  margin: auto;
+}
+.container1 {
+  margin-left: 5%;
+}
+.btn {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border: 3px solid cadetblue;
+  border-radius: 0.3rem;
+  color: cadetblue;
+  background-color: transparent;
+  transition: all 300ms ease-in-out;
+}
+.btn:hover {
+  color: white;
+  background-color: cadetblue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.295);
+}
+textarea {
+  font-family: "Reenie Beanie", cursive;
+  width: 250px;
+  height: 250px;
+  padding-top: 3rem;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.705);
+  outline: none;
+  border: none;
+  padding: 20px;
+  font-size: 1.8rem;
+}
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.container2 div {
+  transition: all 300ms ease-in-out;
+}
+.container2 div:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+.container3 {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+svg {
+  color: darkgrey;
+}
+#check_icon {
+  position: absolute;
+  top: 5%;
+  right: 17%;
+  transition: all 300ms ease-in-out;
+}
+#delete_icon {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  transition: all 300ms ease-in-out;
+}
+#check_icon:hover,
+#delete_icon:hover {
+  color: #000;
+}
